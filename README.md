@@ -3,5 +3,5 @@
 > 工具：PyCharm4.5.4<br/>
 > 语言：python2.7<br/>
 
-## 截图
+## 工具截图
 ![](./shot.png)
