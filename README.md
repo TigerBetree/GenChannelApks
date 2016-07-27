@@ -7,8 +7,8 @@
 1. 安装py2exe
 
 2. 执行如下命令：
-```
-    pytyon setup.py py2exe
+```python
+    python setup.py py2exe
 ```
 
 
