@@ -4,4 +4,4 @@
 > 语言：python2.7<br/>
 
 ## 截图
-![](shot.png)
+![](./shot.png)
