@@ -11,6 +11,7 @@
     python setup.py py2exe
 ```
 
+3. dist目录中的**window_pack_signed_apk.exe**即为工具启动器
 
 ## 工具截图
 ![](./shot.png)
