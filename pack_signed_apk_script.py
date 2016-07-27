@@ -7,6 +7,9 @@ import tkMessageBox
 
 __author__ = 'tiger'
 
+#AndroidManifest.xml中配置频道的meta-data名称
+channel_meta_data_name = 'UMENG_CHANNEL'
+
 
 def genTime():
     return 'apks_%s' % time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
@@ -71,7 +74,7 @@ class PackChannelApk:
         tempxml = ''
         f = open('%s\AndroidManifest.xml' % self.setupdir)
         for line in f:
-            if line.find('UMENG_CHANNEL') > 0:
+            if line.find(channel_meta_data_name) > 0:
                 find = re.search(r'android:value=".*"', line, re.M | re.I)
                 if find:
                     line = re.sub(r'android:value=".*"', r'android:value="%s"' % channel, line)
