@@ -10,8 +10,7 @@
 ```python
     python setup.py py2exe
 ```
-
-## dist目录中的**window_pack_signed_apk.exe**即为工具启动器
+3. dist目录中的**window_pack_signed_apk.exe**即为工具启动器
 
 > 需要在dist目录中创建temp目录<br/>
 > 需要将apktool目录拷贝到dist目录中<br/>
