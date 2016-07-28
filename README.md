@@ -2,6 +2,7 @@
 > 开发环境：windows7<br/>
 > 工具：PyCharm4.5.4<br/>
 > 语言：python2.7<br/>
+> 其它: Tkinter, py2exe<br/>
 
 ## 生成exe可执行文件的方法：
 
