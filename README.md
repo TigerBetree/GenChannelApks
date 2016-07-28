@@ -4,13 +4,14 @@
 > 语言：python2.7<br/>
 
 ## 生成exe可执行文件的方法：
-1. 安装py2exe
 
-2. 执行如下命令：
+- 安装py2exe
+
+- 执行如下命令:
 ```python
     python setup.py py2exe
 ```
-3. dist目录中的**window_pack_signed_apk.exe**即为工具启动器
+- dist目录中的**window_pack_signed_apk.exe**即为工具启动器
 
 ## 注意事项
 > 需要在dist目录中创建temp目录<br/>
