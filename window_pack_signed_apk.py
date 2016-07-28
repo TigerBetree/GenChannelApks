@@ -39,7 +39,7 @@ class MyWindows:
         self.keystore_pass = Entry(window)
         self.keystore_pass.grid(row=1, column=1, sticky=EW)
 
-        Label(window, text='  keystore Alia 名称: ').grid(sticky=E)
+        Label(window, text='  keystore Alia名称: ').grid(sticky=E)
         self.keystore_alia = Entry(window)
         self.keystore_alia.grid(row=2, column=1, sticky=EW)
 
