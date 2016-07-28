@@ -37,11 +37,11 @@ class MyWindows:
 
         Label(window, text='  keystore密码: ').grid(sticky=E)
         self.keystore_pass = Entry(window)
-        self.keystore_pass.grid(row=1, column=1)
+        self.keystore_pass.grid(row=1, column=1, sticky=EW)
 
         Label(window, text='  keystore Alia 名称: ').grid(sticky=E)
         self.keystore_alia = Entry(window)
-        self.keystore_alia.grid(row=2, column=1)
+        self.keystore_alia.grid(row=2, column=1, sticky=EW)
 
         Label(window, text='  选择apk文件: ').grid(sticky=E)
         self.apk_file_name = StringVar()
@@ -51,13 +51,13 @@ class MyWindows:
 
         Label(window, text='渠道号: ').grid(sticky=E)
         self.newchannelname = Entry(window)
-        self.newchannelname.grid(row=4, column=1)
+        self.newchannelname.grid(row=4, column=1, sticky=EW)
         btn = Button(window, text='  +  ', command=self.insert)
         btn.grid(row=4, column=2, sticky=W)
 
         Label(window, text='渠道列表: ').grid(sticky=NE)
         self.channel_list_box = Listbox(window)
-        self.channel_list_box.grid(row=5, column=1)
+        self.channel_list_box.grid(row=5, column=1, sticky=EW)
 
         btn = Button(window, text='  开始打包  ', command=self.start)
         btn.grid(row=6, column=1)
