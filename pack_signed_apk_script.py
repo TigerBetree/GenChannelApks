@@ -121,3 +121,5 @@ class PackChannelApk:
         # 删除无用的临时文件
         os.remove(unsign_apk)
         os.remove(unaligned_signed_apk)
+        # 删除copy的原apk文件
+        os.remove(this.filename)
